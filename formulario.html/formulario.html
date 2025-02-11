@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario da satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa do nivel de satisfação</h1>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <imput type="text" id="nome"/>
+                </p>
+                <p>
+                    <label for="email">E-mail: </label>
+                    <imput type="e-mail" id="email"/>
+                </p>
+                <p>
+                    <label for="telefone">Telefone: </label>
+                </p>
+            </section>
+            <section>
+                <h2>Dados da Pesquisa</h2>
+                <p>
+                    Defina o nivel de sua satisfação com o atendimento prestado:
+                    <imput type="radio" id="1" name="nível-atendimento"/>
+                    <label for="1">1</label>
+                    <imput type="radio" id="2" name="nível-atendimento"/>
+                    <label for="2">2</label>
+                    <imput type="radio" id="3" name="nível-atendimento"/>
+                    <label for="3">3</label>
+                    <imput type="radio" id="4" name="nível-atendimento"/>
+                    <label for="4">4</label>
+                    <imput type="radio" id="5" name="nível-atendimento"/>
+                    <lambel for="5">5</lambel>
+                </p>
+                <p>
+                <imput type="radio" id="1" name="nível-resoluçao"/>
+                <label for="1">1</label>
+                <imput type="radio" id="2" name="nível-resoluçao"/>
+                <label for="2">2</label>
+                <imput type="radio" id="3" name="nível-resoluçao"/>
+                <label for="3">3</label>
+                <imput type="radio" id="4" name="nível-resoluçao"/>
+                <label for="4">4</label>
+                <imput type="radio" id="5" name="nível-resoluçao"/>
+                <lambel for="5">5</lambel>
+                </p>
+                <p>
+                    <label for="departamento">Departamento de atendimento: </label>
+                    <select>
+                        <option>Marketing</option>
+                        <option>Financeiro</option>
+                        <option>Comercial</option>
+                        <opition>Logística</opition>
+                        <option>Recursos Humanos</option>
+                    </select>
+                </p>
+                <p>
+                    <imput type="checkbox" id="compartilhar-dados"/>
+                    <label for="compartilhar-dados>Autorizo compartilhamento de dados com terceiros"</label>
+                </p>
+            </section>
+            <imput type="submit" valve="Enviar" />
+            </form>
+    </body>
+</html>
