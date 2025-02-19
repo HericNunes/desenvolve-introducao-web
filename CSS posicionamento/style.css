@@ -1,0 +1,21 @@
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #F2A71B 1px;
+    padding-right: 10%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 70%;
+    padding-left: 1%;
+    padding-right:1%;
+}
+
+.main footer {
+    margin: 4%;
+}
