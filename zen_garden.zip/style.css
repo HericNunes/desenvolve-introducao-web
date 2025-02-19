@@ -1,0 +1,158 @@
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #F2A71B 1px;
+    padding-right: 10%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 70%;
+    padding-left: 1%;
+    padding-right:1%;
+}
+
+.main footer {
+    margin: 4%;
+}.main footer 
+
+{
+    margin: 4%
+}
+
+.main footer a {
+    border: solid 2px #011F26;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#zen-intro {
+    height:550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+#zen-intro header {
+    background-color: #011F26;
+    color: #BFB78F;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.benefits {
+    display: flex;
+    border-top: #025E73 1px;
+    border-botton: #011F26;
+}
+
+.benefits p {
+    flex-basis: 70%;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+    border-top: #025E73 1px;
+}
+
+.participation {
+    display: flex;
+    flex-wraf: wrap;
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
+.participation h3 {
+    align-self: center;
+}
+
+a {
+    color: #a5a6927b;
+}
+
+a:hover {
+    color: #011F26;
+}
+
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times,serif;
+    float:left;
+}
+
+.design-selection li {
+    border-top: #250736 1px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #011F26 solid 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+}
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+
+    @media print {
+        html {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #zen-intro header{
+            background-color: #BFB78F;
+            color: #011F26;
+        }
