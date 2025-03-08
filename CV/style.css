@@ -1,0 +1,75 @@
+
+.principal { background-color: rgb(244, 250, 252)}
+.background { color: #f2f7f8 }
+.destaque { color: #5d3e05 }
+
+.imagemfoto {
+    width: 300px ;
+}
+html {
+     background: #BFB78F;;
+    color: #025E73
+}
+html {
+    font-size: 18px;
+    font-family: Helvetica,sans-serif;
+    }
+    h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    h5{
+        font-size: 30px;
+        text-align: center;
+    }
+    h6 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .h7 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .h8 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .page-wrapper {
+        position: relative;
+    }
+    .Educação{
+        width: 60%;
+        border-right: #025E73 2px;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px;
+        margin-bottom: 40px; 
+    }
+    .apresentacao h4 {
+        margin-bottom: 15px; 
+        font-size: 24px;
+        text-align: center; 
+    }
+    .imagemfoto {
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%; 
+        margin-bottom: 15px; 
+    }
+    .apresentacao p {
+        text-align: center; 
+        font-size: 16px; 
+        line-height: 1.5;
+        max-width: 600px; 
+    }
+    .contato {
+        margin-top: 20px; 
+        text-align: center; 
+    }
+    .contato p {
+        margin-bottom: 10px; 
+        font-size: 16px;
+    }
